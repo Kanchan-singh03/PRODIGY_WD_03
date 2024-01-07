@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div>
+        <button  class="button1" onclick="playWithComputer()">Play with Computer</button>
+        <button  class="button1" onclick="playWithFriend()">Play with Friend</button>
+        <button  class="button1" onclick="startGame()">Start Game</button>
+    </div>
+    <div id="message"></div>
+    <div id="board" class="board" onclick="handleCellClick(event)">
+        <!-- Board cells will be dynamically created here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
